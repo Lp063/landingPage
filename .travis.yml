@@ -5,6 +5,8 @@ php:
 
 
 matrix:
+  allow_failures:
+    - php: phpunit
  fast_finish: true
  include:
    - php: 5.6
