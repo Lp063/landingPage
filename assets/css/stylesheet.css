@@ -16,3 +16,121 @@ h2{
   background-size: cover;
   background-image:url(../images/city.jpg);
 }
+
+.visible-sm-block{
+  display:none;
+}
+
+.btn.cta-email.position{
+  margin-top: 3%;
+}
+
+.btn.cta-email{
+  width: 15%;
+  background-color: white;
+  height: 8%;
+  padding: 1%;
+  border-radius: 12px;
+  color: black !important;
+}
+
+.cta-email > a{
+  text-decoration: none;
+  color:black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.cta-email > a:hover{
+  color:black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width:1180px){
+  .visible-sm-block{
+    display:none;
+  }
+  .visible-md-block{
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width:998px){
+  .visible-sm-block{
+    display:none;
+  }
+  .visible-md-block{
+    display: block;
+  }
+
+  .btn.cta-email {
+    width: 90vw;
+    padding: 1% 0%;
+    border-radius: 7px;
+    text-align: center;
+    position: relative;
+    top: 86px;
+  }
+
+  .cta-email > a{
+    position: relative;
+    top: 5px;
+  }
+
+  .lead{
+    margin-top:19%;
+  }
+}
+
+
+@media only screen and (max-width:768px){
+  .visible-md-block{
+    display:none
+  }
+  .visible-sm-block{
+    display:block;
+  }
+
+  .btn.cta-email {
+    width: 90vw;
+    padding: 1% 0%;
+    border-radius: 7px;
+    text-align: center;
+    position: relative;
+    top: 86px;
+  }
+
+  .cta-email > a{
+    position: relative;
+    top: 5px;
+  }
+
+  .lead{
+    margin-top:19%;
+  }
+}
+
+
+@media only screen and (max-width:480px){
+  .visible-md-block{
+    display:none
+  }
+  .visible-sm-block{
+    display:block;
+  }
+
+  .btn.cta-email {
+    width: 90vw;
+    padding: 1% 0%;
+    border-radius: 7px;
+    text-align: center;
+    position: relative;
+    top: 86px;
+  }
+
+  .cta-email > a{
+    position: relative;
+    top: 5px;
+  }
+}
